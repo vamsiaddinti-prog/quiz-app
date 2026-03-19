@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Outputs</title>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav>This is nav<nav>
-            <script>
-                document.write("Output using document.write()");
 
-                console.log("Output using console.log()");
+<div class="quiz-box">
+    <h2 id="question">Question</h2>
+    <div id="options"></div>
+    <button onclick="nextQuestion()">Next</button>
+</div>
 
-                alert("Output using alert()");
-            </script>
-
-            <h2 id="output"></h2>
-            <script>
-                document.getElementById("output").innerText = "Output using innerText";
-            </script>
+<script src="script.js"></script>
 </body>
-
 </html>

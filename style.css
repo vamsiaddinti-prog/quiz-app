@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-box {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.option {
+    background: #334155;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background: #475569;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: #22c55e;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
